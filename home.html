@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/java.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid m-0 p-0 bg-color ">
+        <!-- Navbar / Header-->
+        <div claas="width-100 d-flex align-items-center justify-content-center">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div
+                        class="navbar-nav d-flex justify-content-center align-items-center .flex-column-at-991 width-100">
+                        <div>
+                            <a class="nav-item nav-link active" href="#"><span class="text-color">Home</span> <span
+                                    class="sr-only text-color">(current)</span></a>
+                        </div>
+
+                        <div>
+                            <a class="nav-item nav-link " href="#projects"><span class="text-color">Projects</span></a>
+                        </div>
+                        <div>
+                            <a class="nav-item nav-link" href="#services"><span class="text-color">Services</span></a>
+                        </div>
+                        <div>
+                            <a class="nav-item nav-link " href="#contact"><span class="text-color">Contact</span></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Introduction -->
+        <div class="pt-100">
+            <div class="d-flex align-items-center pl-5 pr-5  pb-2 pt-2 flex-column-at-991">
+                <div class="p-3">
+                    <h2 class="text-color"> Hi! I am </h2>
+                    <h1 class="text-color"> Hafiz Muhammad Asad Ayoub</h1>
+                    <h2 class="text-color"> Fullstack Web Developer</h2>
+
+                </div>
+                <div class="fancy-border-1 bg-color-1">
+                    <div class="fancy-border-2 bg-color-2">
+                        <div class="fancy-border-3 bg-color-3">
+
+                            <img src="./assets/images/pic.png" alt="" class="round-30 width-70-at-600">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- servicces carousel -->
+        <div class="p-5 services-carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <center>
+                            <img class="d-block height-500-px width-900-px width-250-px-at-600 height-250-px-at-600 width-500-px-at-99 height-400-px-at-991"
+                                src="./assets/images/service2.png" alt="First slide">
+                        </center>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>...</h5>
+                            <p>...</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <center>
+                            <img class="d-block height-500-px width-900-px width-250-px-at-600 height-250-px-at-600 width-500-px-at-99 height-400-px-at-991"
+                                src="./assets/images/service3.png" alt="Second slide">
+                        </center>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>...</h5>
+                            <p>...</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <center>
+                            <img class="d-block height-500-px width-900-px width-250-px-at-600 height-250-px-at-600 width-500-px-at-99 height-400-px-at-991"
+                                src="./assets/images/service4.png" alt="Third slide">
+                        </center>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>...</h5>
+                            <p>...</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="p-1 d-flex flex-column justify-content-center align-items-center" id="skills">
+            <div>
+                <h2 class="text-color">Skills</h2>
+            </div>
+
+            <div class="p-2">
+                <div class="card-deck flex-column-at-991 gap-12px-at-991">
+                    <div class="card d-flex align-items-center justify-content-center glassmorph p-2">
+                        <i class="fab fa-html5 font-size-130 color-html"></i>
+                        <div class="card-body d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="card-title text-color ">Html</h2>
+                            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p> -->
+                        </div>
+
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center glassmorph p-2">
+                        <i class="fab fa-css3 font-size-130 color-css"></i>
+                        <div class="card-body d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="card-title text-color">CSS</h2>
+                            <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p> -->
+                        </div>
+
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center glassmorph p-2">
+                        <!-- <i class="fab fa-bootstrap"></i> -->
+
+                        <svg xmlns="http://www.w3.org/2000/svg" height="130px" width="130px" viewBox="0 0 576 512">
+                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path fill="#453069"
+                                d="M333.5 201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4 238.2 333.5 225 333.5 201.4zM517 188.6c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1 0-55.8 28.1-54.7 58.5c1 29.3-.3 67.2-9.8 98.1c-9.6 31-25.7 50.6-52.2 53.1v28.5c26.4 2.5 42.6 22.1 52.2 53.1c9.5 30.9 10.9 68.8 9.8 98.1c-1.1 30.5 22.7 58.5 54.7 58.5h328.7c32.1 0 55.8-28.1 54.7-58.5c-1-29.3 .3-67.2 9.8-98.1c9.6-31 25.7-50.6 52.1-53.1v-28.5C542.7 239.2 526.5 219.6 517 188.6zM300.2 375.1h-97.9V136.8h97.4c43.3 0 71.7 23.4 71.7 59.4c0 25.3-19.1 47.9-43.5 51.8v1.3c33.2 3.6 55.5 26.6 55.5 58.3C383.4 349.7 352.1 375.1 300.2 375.1zM290.2 266.4h-50.1v78.4h52.3c34.2 0 52.3-13.7 52.3-39.5C344.7 279.6 326.1 266.4 290.2 266.4z" />
+                        </svg>
+                        <div class="card-body d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="card-title text-color">BootStrap</h2>
+                            <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p> -->
+                        </div>
+
+
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center glassmorph p-2">
+                        <i class="fab fa-js-square font-size-130 color-js"></i>
+                        <div class="card-body d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="card-title text-color">JavaScript</h2>
+                            <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p> -->
+                        </div>
+
+
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center glassmorph p-2">
+                        <i class="fab fa-php font-size-130 color-php"></i>
+                        <div class="card-body d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="card-title text-color">PHP</h2>
+                            <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p> -->
+                        </div>
+
+
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center glassmorph p-2">
+                        <i class="fab fa-node-js font-size-130 color-nodejs"></i>
+                        <div class="card-body d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="card-title text-color">NodeJS</h2>
+                            <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p> -->
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- Projects -->
+        <div class=" d-flex flex-column justify-content-center align-items-center p-2" id="projects">
+            <div>
+                <h2 class="text-color">Projects</h2>
+            </div>
+            <div class="">
+                <div class="card-deck flex-column-at-991 gap-12px-at-991 m-0 gap-10">
+                    <div class="card d-flex align-items-center justify-content-center glassmorph  m-0">
+                        <img src="./assets/images/0.png" class="card-img-top p-2 width-300-px" alt="...">
+                        <div class="card-body d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="card-title text-color">Social Blog</h2>
+                            <p class="card-text text-color">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center glassmorph m-0">
+                        <img src="./assets/images/0.png" class="card-img-top width-300-px p-2" alt="...">
+                        <div class="card-body d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="card-title text-color">Twitter Clone</h2>
+                            <p class="card-text text-color">This card has supporting text below as a natural lead-in to
+                                additional
+                                content.</p>
+                        </div>
+
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center glassmorph m-0">
+                        <img src="./assets/images/0.png" class="card-img-top width-300-px p-2" alt="...">
+                        <div class="card-body d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="card-title text-color">Twitter Clone</h2>
+                            <p class="card-text text-color">This card has supporting text below as a natural lead-in to
+                                additional
+                                content.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Contact -->
+        <div class="p-4" id="contact">
+            <div class="card-deck gap-12px-at-991 gap-10">
+                <div class="card d-flex justify-content-center align-items-center glassmorph m-0">
+                    <div class="">
+                        <h2 class="text-color">Contact</h2>
+                    </div>
+                    <div class=" d-flex align-items-center justify-content-center flex-column pb-3 ">
+                        <div class=" d-flex flex-column justify-content-center p-3">
+                            <div class="d-flex align-items-center gap-10 ">
+                                <i class="fas fa-envelope text-color"></i>
+                                <span class="text-color">asad.ayoub66@gmail.com</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-10 ">
+                                <i class="fas fa-mobile text-color"></i>
+                                <span class="text-color"> +92-326-6568699</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-10 ">
+                                <i class="fab fa-facebook text-color"></i>
+                                <span class="text-color">
+                                    @hmasad66
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-10 ">
+                                <i class="fab fa-twitter text-color"></i>
+                                <span class="text-color">
+                                    @hmasad66
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-10">
+                                <i class="fab fa-instagram text-color"></i>
+                                <span class="text-color">
+                                    @hmasad66
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-10 ">
+                                <i class="fab fa-github text-color"></i>
+                                <span class="text-color">
+                                    @hmasad66
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-10 ">
+                                <i class="fab fa-linkedin text-color"></i>
+                                <span class="text-color ">
+                                    @hmasad66
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-10 ">
+                                <i class="fab fa-youtube text-color"></i>
+                                <span class="text-color">
+                                    @hmasad66
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-10 ">
+                                <i class="fab fa-whatsapp text-color"></i>
+                                <span class="text-color">
+                                    @hmasad66
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-10 ">
+                                <i class="fab fa-reddit text-color"></i>
+                                <span class="text-color">
+                                    @hmasad66
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card d-flex align-items-center justify-content-center glassmorph m-0">
+                    <div class="">
+                        <h2 class="text-color">Leave a Message</h2>
+                    </div>
+                    <div class=" width-70">
+                        <form class=" d-flex  justify-content-center flex-column">
+                            <div class="form-group">
+                                <label for="email" class="text-color">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="text-color">Message</label>
+                                <textarea class="form-control" id="message"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn button-color btn-primary border-none"><span class="text-color">Submit</span></button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="p-3" id="footer">
+            <div class="d-flex align-items-center justify-content-center">
+                <span class="text-color">© 2023 all right reserved @hmasad66</span>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+
+</html>
